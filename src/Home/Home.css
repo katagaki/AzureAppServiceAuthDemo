@@ -1,0 +1,14 @@
+div {
+    cursor: default;
+    user-select: none;
+}
+
+.mainContent {
+    width: calc(100% - 32px);
+    padding: 16px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
